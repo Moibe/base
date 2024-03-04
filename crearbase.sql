@@ -44,3 +44,19 @@ CREATE TABLE Books (
 );
 
 GO
+
+-- Insertar 10 libros de ejemplo
+INSERT INTO Books (Title, Author, Genre, PublishDate)
+VALUES
+ ('Pride and Prejudice', 'Jane Austen', 'Romance', '1813-01-28'),
+ ('To Kill a Mockingbird', 'Harper Lee', 'Drama', '1960-07-11'),
+ ('The Lord of the Rings', 'J.R.R. Tolkien', 'Fantasy', '1954-07-29'),
+ ('The Hitchhiker\'s Guide to the Galaxy', 'Douglas Adams', 'Science Fiction', '1979-10-12'),
+ ('One Hundred Years of Solitude', 'Gabriel García Márquez', 'Magical Realism', '1967-06-05'),
+ ('The Great Gatsby', 'F. Scott Fitzgerald', 'Social Commentary', '1925-04-10'),
+ ('Frankenstein', 'Mary Shelley', 'Gothic', '1818-01-01'),
+ ('The Catcher in the Rye', 'J.D. Salinger', 'Coming-of-Age', '1951-07-16'),
+ ('The Adventures of Huckleberry Finn', 'Mark Twain', 'Satire', '1884-12-10'),
+ ('1984', 'George Orwell', 'Dystopian', '1949-06-08');
+
+GO
