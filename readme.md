@@ -14,7 +14,9 @@ Eliminación de un libro
 Para cada caso de prueba, se incluyen los siguientes pasos:
 
 Entrada: Se describen los datos que se van a utilizar como entrada para el procedimiento almacenado.
+
 Ejecución: Se indica cómo se ejecuta el procedimiento almacenado.
+
 Salida esperada: Se describe el resultado esperado después de ejecutar el procedimiento almacenado.
 
 Para ejecutar la creacion de la base así como los SP y este script de prueba:
